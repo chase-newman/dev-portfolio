@@ -46,7 +46,7 @@ class ContactForm extends React.Component {
 
   render() {
 	  return (
-	    <div className="row contact-row">
+	    <div className="row contact-row justify-content-center">
 	      <div className="col-lg-6 col-md-8 col-sm-12 contact-col">
         	<form className="form-group">
           	<h1>Contact Me <i className="fas fa-envelope"></i></h1>
