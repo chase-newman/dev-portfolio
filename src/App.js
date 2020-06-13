@@ -1,26 +1,45 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, {Component} from 'react';
+import Aux from './hoc/Aux';
+import Header from './Components/Header/Header';
+import ProjectList from './Components/ProjectList/ProjectList';
+import ContactForm from './Containers/ContactForm/ContactForm';
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component {
+  state = {
+    projects: [
+      {
+        title: "Crypto Desk",
+        imageUrl: "./assets/crypto-desk.png",
+        description: "Project Description...",
+        link: "http://crypto-desk.s3-website-us-east-1.amazonaws.com/"
+      },
+      {
+        title: "Productivity App",
+        imageUrl: "./assets/productivity-app.png",
+        description: "Project Description...",
+        link: "http://react-portfolio-productivity-app.s3-website.us-east-2.amazonaws.com/"
+      },
+      {
+        title: "Burger Builder App",
+        imageUrl: "./assets/burger-builder-app.png",
+        description: "Project Description...",
+        link: "http://react-burger-builder-app.s3-website-us-east-1.amazonaws.com/"
+      }
+      ]
+  }
+  
+  render() {
+    return (
+      <Aux>
+        <Header/>
+        <div className="container-fluid">
+          <ProjectList projects={this.state.projects}/>
+          <ContactForm />
+        </div>
+      </Aux>
+    );    
+  }
 }
 
 export default App;

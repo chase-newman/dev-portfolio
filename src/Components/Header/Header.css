@@ -1,0 +1,7 @@
+.bg-dark {
+    background: black !important;
+    height: 80px;
+}
+.navbar-brand {
+    font-size: 1.5rem;
+}
