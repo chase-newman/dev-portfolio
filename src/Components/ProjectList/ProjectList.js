@@ -20,13 +20,13 @@ const ProjectList = (props) => {
             <div className="row justify-content-center">
                 <div className="col-lg-5 col-md-8 col-sm-10   justify-content-center">
                     <h1 className="projects-header">About</h1>
-                    <p>Hi, my name is Chase Newman. I'm a Front End Web Dev from New York, NY. 
+                    <h5>Hi, my name is Chase Newman. I'm a Front End Web Dev from New York, NY. 
                        Check out my projects below. They're built using React, React Router, Axios, Firebase, Redux, and more!
-                    </p>
+                    </h5>
                     <h1 className="projects-header">Projects</h1>
                 </div>
             </div>
-            <div className="row">
+            <div className="row justify-content-center">
                 {projects}
             </div>
         </Aux>

@@ -23,6 +23,13 @@ class App extends Component {
         gitHubLink: "https://github.com/chase-newman/productivity-app.git"
       },
       {
+        title: "Stock Market Data App",
+        imageUrl: "./assets/stock-market-data-app.png",
+        description: "Stock Market Data app that allows you to login and search stock prices from the past 30 days, visualized with chartJS ",
+        projectLink: "http://market-data-app.s3-website-us-east-1.amazonaws.com/",
+        gitHubLink: "https://github.com/chase-newman/market-data-app"
+      },
+      {
         title: "Burger Builder App",
         imageUrl: "./assets/burger-builder-app.png",
         description: "A burger ordering app which allows you to login, create your own burger and submit an order. Also stores all previous burger orders for each authenticaed user",

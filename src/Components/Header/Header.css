@@ -5,3 +5,7 @@
 .navbar-brand {
     font-size: 1.5rem;
 }
+.navbar-text {
+    font-size: 1.2rem;
+    color: rgb(255, 166, 0) !important;
+}

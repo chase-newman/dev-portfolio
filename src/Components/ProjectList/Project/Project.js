@@ -2,7 +2,7 @@ import React from 'react';
 import './Project.css'
 
 const Project = (props) => (
-        <div className="col-lg-4 col-md-10 col-sm-12 project-col">
+        <div className="col-lg-5 col-md-10 col-sm-12 project-col">
             <h3>
                 <strong>{props.title}</strong>
             </h3>
