@@ -36,7 +36,8 @@ class App extends Component {
         projectLink: "http://react-burger-builder-app.s3-website-us-east-1.amazonaws.com/",
         gitHubLink: "https://github.com/chase-newman/burger-builder-app"
       }
-      ]
+      ],
+      headshot: "./assets/headshot-sketch.jpg"
   }
   
   render() {
@@ -44,7 +45,9 @@ class App extends Component {
       <Aux>
         <Header/>
         <div className="container-fluid">
-          <ProjectList projects={this.state.projects}/>
+          <ProjectList 
+            projects={this.state.projects}
+            headshot={this.state.headshot}/>
           <ContactForm />
         </div>
       </Aux>

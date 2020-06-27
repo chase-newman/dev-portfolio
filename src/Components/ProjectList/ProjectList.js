@@ -17,12 +17,32 @@ const ProjectList = (props) => {
     
     return (
         <Aux>
+            <div className="row justify-content-center banner-row">
+                <div className="col-lg-4 col-md-8 col-sm-10   justify-content-center">
+                    <img src={props.headshot} alt="head-shot" className="img-fluid headshot"/>
+                 </div>
+                <div className="col-lg-5 col-md-8 col-sm-10   justify-content-center">
+                    <h3 className="about-info">Hi, my name is Chase Newman. I'm a Front End Web Dev from New York, NY. 
+                       Check out my projects below. They're built using React, React Router, Axios, Firebase, Redux, and more!
+                    </h3>
+                    <a 
+                        href="#contact-me"
+                        className="banner-link"
+                        rel="noopener noreferrer">
+                            <h5>chasejn01@gmail.com <span><i class="fas fa-2x fa-envelope"></i></span></h5>
+                    </a>
+                    <a 
+                        href="https://github.com/chase-newman"
+                        className="banner-link"
+                        target="_blank"
+                        rel="noopener noreferrer">
+                            <h5>Check out my Github <span><i className="fab fa-2x fa-github"></i></span></h5>
+                    </a>
+                    
+                </div>
+            </div>
             <div className="row justify-content-center">
                 <div className="col-lg-5 col-md-8 col-sm-10   justify-content-center">
-                    <h1 className="projects-header">About</h1>
-                    <h5>Hi, my name is Chase Newman. I'm a Front End Web Dev from New York, NY. 
-                       Check out my projects below. They're built using React, React Router, Axios, Firebase, Redux, and more!
-                    </h5>
                     <h1 className="projects-header">Projects</h1>
                 </div>
             </div>

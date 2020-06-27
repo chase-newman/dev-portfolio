@@ -1,11 +1,13 @@
 .bg-dark {
-    background: black !important;
-    height: 80px;
+    background: #302e30 !important;
 }
 .navbar-brand {
     font-size: 1.5rem;
 }
 .navbar-text {
     font-size: 1.2rem;
-    color: rgb(255, 166, 0) !important;
+    color: rgb(191,27,156) !important;
+}
+.fa-code {
+    color: rgb(250,161,0);
 }
