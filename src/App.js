@@ -8,34 +8,41 @@ import './App.css';
 class App extends Component {
   state = {
     projects: [
-      {
-        title: "Crypto Desk",
-        imageUrl: "./assets/crypto-desk.png",
-        description: "Cryptocurrency app which gives you real time price data for up to 8 different coins, while providing top news stories and historical price data all visualized with chartJS",
-        projectLink: "http://crypto-desk.s3-website-us-east-1.amazonaws.com/",
-        gitHubLink: "https://github.com/chase-newman/crypto-desk.git"
-      },
-      {
-        title: "Productivity App",
-        imageUrl: "./assets/productivity-app.png",
-        description: "Productivity app which uses CRUD functionality to store to-do list items on a Firebase DB",
-        projectLink: "http://react-portfolio-productivity-app.s3-website.us-east-2.amazonaws.com/",
-        gitHubLink: "https://github.com/chase-newman/productivity-app.git"
-      },
-      {
-        title: "Stock Market Data App",
-        imageUrl: "./assets/stock-market-data-app.png",
-        description: "Stock Market Data app that allows you to login and search stock prices from the past 30 days, visualized with chartJS ",
-        projectLink: "http://market-data-app.s3-website-us-east-1.amazonaws.com/",
-        gitHubLink: "https://github.com/chase-newman/market-data-app"
-      },
-      {
-        title: "Burger Builder App",
-        imageUrl: "./assets/burger-builder-app.png",
-        description: "A burger ordering app which allows you to login, create your own burger and submit an order. Also stores all previous burger orders for each authenticaed user",
-        projectLink: "http://react-burger-builder-app.s3-website-us-east-1.amazonaws.com/",
-        gitHubLink: "https://github.com/chase-newman/burger-builder-app"
-      }
+        {
+          title: "Crypto Desk",
+          imageUrl: "./assets/crypto-desk.png",
+          description: "Cryptocurrency app which gives you real time price data for up to 8 different coins, while providing top news stories and historical price data all visualized with chartJS",
+          projectLink: "http://crypto-desk.s3-website-us-east-1.amazonaws.com/",
+          gitHubLink: "https://github.com/chase-newman/crypto-desk.git"
+        },
+        {
+          title: "Productivity App",
+          imageUrl: "./assets/productivity-app.png",
+          description: "Productivity app which uses CRUD functionality to store to-do list items on a Firebase DB",
+          projectLink: "http://react-portfolio-productivity-app.s3-website.us-east-2.amazonaws.com/",
+          gitHubLink: "https://github.com/chase-newman/productivity-app.git"
+        },
+        {
+          title: "Stock Market Data App",
+          imageUrl: "./assets/stock-market-data-app.png",
+          description: "Stock Market Data app that allows you to login and search stock prices from the past 30 days, visualized with chartJS ",
+          projectLink: "http://market-data-app.s3-website-us-east-1.amazonaws.com/",
+          gitHubLink: "https://github.com/chase-newman/market-data-app"
+        },
+        {
+          title: "Task Manager",
+          imageUrl: "./assets/task-manager-screenshot.png",
+          description: "A task manager site that organizes a team's task and workflow.",
+          projectLink: "http://react-redux-task-manager.s3-website-us-east-1.amazonaws.com/",
+          gitHubLink: "https://github.com/chase-newman/react-redux-task-manager-v2"
+        },
+        {
+          title: "Burger Builder App",
+          imageUrl: "./assets/burger-builder-app.png",
+          description: "A burger ordering app which allows you to login, create your own burger and submit an order. Also stores all previous burger orders for each authenticaed user",
+          projectLink: "http://react-burger-builder-app.s3-website-us-east-1.amazonaws.com/",
+          gitHubLink: "https://github.com/chase-newman/burger-builder-app"
+        }
       ],
       headshot: "./assets/headshot-sketch.jpg"
   }
